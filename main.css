@@ -51,15 +51,18 @@ header {
                  -2px 2px 0 black,
                  2px -2px 0 black,
                  -2px -2px 0 black;
-    position: absolute;
+    float: left;
 }
 
 .header-nav {
-    position: absolute;
-    
+    float: left;
+    font-family: 'Shadows Into Light', cursive;
+    line-height: 73px; /* This needs to be equal to the logo height */
 }
 
 .header-nav li {
     display: inline;
     text-align: center;
+    font-size: 2.5em;
+    margin-left: 3em;
 }
