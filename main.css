@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Pacifico|Shadows+Into+Light&display=swap');
+
+/* Google Fonts
+font-family: 'Pacifico', cursive; 
+^Logo
+font-family: 'Shadows Into Light', cursive;
+^Headers
+font-family: 'Abel', sans-serif;
+^Paragraphs
+   End Google Fonts */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    height: 100px;
+    width: 100%;
+    padding: 50px;
+    position: fixed;
+}
+
+.logo a, .logo a:visited {
+    color: #FF88B7;
+}
+
+/* Main */
+
+/* Classes */
+
+.logo {
+    font-family: 'Pacifico', cursive; 
+    font-size: 4em;
+    color: #FF88B7;
+    text-shadow:  2px 2px 0 black,
+                 -2px 2px 0 black,
+                 2px -2px 0 black,
+                 -2px -2px 0 black;
+    position: absolute;
+}
+
+.header-nav {
+    position: absolute;
+    
+}
+
+.header-nav li {
+    display: inline;
+    text-align: center;
+}
